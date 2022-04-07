@@ -8,6 +8,8 @@ let itemClose = document.querySelector(".fa-times");
 itemOpen.addEventListener("click", function() {
     //cambio il display
     hamburger.classList.add("active");
+    hamburger.style.cssText =
+        "background-color:orange;border:8px double black;padding:20px;padding:40px";
 });
 
 /* Chiudo il menù */
